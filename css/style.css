@@ -216,10 +216,11 @@ br.sp { display: none; }
    縦書き見出し
    ========================================================= */
 .vtitle { display: flex; flex-direction: row-reverse; justify-content: center; align-items: stretch; gap: calc(40 * var(--p)); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1.2; }
-.vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; }
+.vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; text-align: start; }
 .vtitle--lined { color: var(--green); gap: 0; }
 .vtitle--lined span { border-left: 1px solid var(--green); padding: 0; line-height: 1.35; letter-spacing: .35em; white-space: nowrap; }
 .vtitle--lined span:first-child { border-right: 1px solid var(--green); }
+.vtitle--lined span:last-child { padding-top: 1.35em; } /* 1文字分下げる */
 .vtitle--white { color: #fff; }
 
 /* =========================================================
