@@ -289,7 +289,7 @@ br.sp { display: none; }
 .reasons__num { font-weight: 500; font-size: calc(40 * var(--p)); line-height: calc(26 * var(--p)); letter-spacing: -.03em; }
 .reasons__head { display: flex; flex-direction: column; align-items: center; gap: calc(6 * var(--p)); margin-top: calc(16 * var(--p)); font-weight: 500; font-size: calc(30 * var(--p)); line-height: calc(40 * var(--p)); letter-spacing: -.03em; color: #fff; }
 .reasons__head span { display: block; min-width: calc(392 * var(--p)); background: var(--green); padding: 0 calc(12 * var(--p)); }
-.reasons__text { font-weight: 500; font-size: max(12px, calc(20 * var(--p))); line-height: calc(32 * var(--p)); letter-spacing: -.03em; margin-top: calc(40 * var(--p)); }
+.reasons__text { font-weight: 500; font-size: 25px; line-height: 1.7; letter-spacing: -.03em; margin-top: calc(40 * var(--p)); }
 .reasons .deco--lemon-r { right: calc(-77 * var(--p)); top: calc(120 * var(--p)); width: calc(420 * var(--p)); }
 .reasons .deco--lime-l { left: calc(-102 * var(--p)); top: calc(1190 * var(--p)); width: calc(414 * var(--p)); }
 .reasons__bottle { position: absolute; z-index: 0; }
