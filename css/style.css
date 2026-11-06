@@ -524,8 +524,8 @@ br.sp { display: none; }
   .reasons__num { font-size: calc(20 * var(--s)); }
   .reasons__head { font-size: calc(16 * var(--s)); line-height: calc(24 * var(--s)); margin-top: calc(6 * var(--s)); gap: calc(4 * var(--s)); }
   .reasons__head span { min-width: calc(206 * var(--s)); padding: 0 calc(8 * var(--s)); }
-  .reasons__text { font-size: calc(12 * var(--s)); line-height: calc(22 * var(--s)); margin-top: calc(14 * var(--s)); }
-  .reasons__text { width: calc(279 * var(--s)); margin-left: auto; margin-right: auto; }
+  .reasons__text { font-size: 18px; line-height: 1.75; margin-top: calc(14 * var(--s)); font-feature-settings: "palt"; }
+  .reasons__text { width: calc(310 * var(--s)); margin-left: auto; margin-right: auto; }
   .reasons .deco--lemon-r { right: auto; left: calc(-110 * var(--s)); top: calc(40 * var(--s)); width: calc(250 * var(--s)); }
   .reasons .deco--lime-l { left: auto; right: calc(-80 * var(--s)); top: calc(780 * var(--s)); width: calc(240 * var(--s)); transform: none; }
   .reasons__bottle .circle { display: none; }
@@ -567,7 +567,8 @@ br.sp { display: none; }
   .rare__desc-1 { padding-left: calc(86 * var(--s)); margin-bottom: calc(6 * var(--s)); }
   .pro__text, .company__text { font-weight: 500; }
   .product__img, .product--lemon .product__img { top: auto; }
-  .reasons__bottle--lemon { top: calc(760 * var(--s)); }
+  .reasons__bottle--lemon { left: auto; right: calc(14 * var(--s)); top: calc(632 * var(--s)); }
+  .reasons__bottle--lemon img { width: calc(52 * var(--s)); }
   .cta-btn, .cta-btn--sm { font-size: calc(18 * var(--s)); letter-spacing: .06em; padding-left: calc(30 * var(--s)); }
   /* 文字詰め（SP） */
   .intro__text, .rare__lead, .rare__desc, .shock__text, .field__text, .why__text, .pro__text, .diff__summary p, .gift__text, .company__text, .problem__text, .product__spec { font-feature-settings: "palt"; }
