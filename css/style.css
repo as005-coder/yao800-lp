@@ -93,7 +93,7 @@ br.sp { display: none; }
    ========================================================= */
 .fv {
   position: relative; overflow: hidden; color: #fff;
-  height: calc(1668 * var(--p));
+  height: calc(1768 * var(--p));
   background: #2f3a1c url(../img/fv-bg.jpg) center / cover no-repeat;
 }
 .fv::after { content: ""; position: absolute; z-index: 0; inset: 0; background: url(../img/fv-bg.jpg) calc(-478 * var(--q)) calc(-924 * var(--q)) / calc(1928 * var(--q)) calc(2826 * var(--q)) no-repeat; }
@@ -272,7 +272,7 @@ br.sp { display: none; }
 /* =========================================================
    Gift
    ========================================================= */
-.gift { position: relative; color: #fff; text-align: center; padding: calc(69 * var(--p)) 0 calc(90 * var(--p)); min-height: calc(851 * var(--p)); background: #2f3a1c url(../img/fv-bg.jpg) center / cover no-repeat; }
+.gift { position: relative; color: #fff; text-align: center; padding: calc(69 * var(--p)) 0 calc(190 * var(--p)); min-height: calc(951 * var(--p)); background: #2f3a1c url(../img/fv-bg.jpg) center / cover no-repeat; }
 .gift::after { content: ""; position: absolute; z-index: 0; inset: 0; background: url(../img/fv-bg.jpg) calc(-453 * var(--q)) calc(-1596 * var(--q)) / calc(2152 * var(--q)) calc(3234 * var(--q)) no-repeat; }
 .gift::before { content: ""; position: absolute; z-index: 1; inset: 0; background: rgba(0, 0, 0, .5); }
 .gift .inner { z-index: 2; }
@@ -393,7 +393,7 @@ br.sp { display: none; }
   .cta--sp-only { display: block; }
 
   /* FV */
-  .fv { height: calc(850 * var(--s)); background-position: 38% 40%; }
+  .fv { height: calc(900 * var(--s)); background-position: 38% 40%; }
   .fv::after, .gift::after { display: none; }
   .fv__inner { width: 100%; }
   .fv__catch { top: calc(88 * var(--s)); font-size: calc(20 * var(--s)); }
@@ -515,7 +515,7 @@ br.sp { display: none; }
   .diff__head .deco { display: none; }
 
   /* gift */
-  .gift { min-height: 0; padding: calc(110 * var(--s)) 0 calc(60 * var(--s)); background-position: 52% 50%; }
+  .gift { min-height: 0; padding: calc(110 * var(--s)) 0 calc(110 * var(--s)); background-position: 52% 50%; }
   .gift__text { margin-top: calc(50 * var(--s)); }
 
   /* reasons */
