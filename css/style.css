@@ -423,6 +423,7 @@ br.sp { display: none; }
   .rare { padding: calc(80 * var(--s)) 0 calc(55 * var(--s)); }
   .rare__inner { width: calc(280 * var(--s)); }
   .rare__lead { line-height: calc(40 * var(--s)); }
+  .rare__lead { margin-right: calc(-14 * var(--s)); }
   .rare__lead-l { white-space: normal; font-size: calc(18 * var(--s)); line-height: calc(40 * var(--s)); }
   .rare__lead em { font-size: calc(18 * var(--s)); }
   .rare__body { flex-direction: column; gap: 0; margin-top: calc(10 * var(--s)); }
