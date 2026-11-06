@@ -220,7 +220,7 @@ br.sp { display: none; }
 .vtitle--lined { color: var(--green); gap: 0; }
 .vtitle--lined span { border-left: 1px solid var(--green); padding: .3em 0 .15em; line-height: 1.35; letter-spacing: .35em; white-space: nowrap; }
 .vtitle--lined span:first-child { border-right: 1px solid var(--green); }
-.vtitle--lined span:last-child { padding-top: 1.65em; } /* 1文字分下げる */
+.vtitle--lined span:last-child { padding-top: 1.1em; } /* 1文字分下げる */
 .vtitle--white { color: #fff; }
 
 /* =========================================================
