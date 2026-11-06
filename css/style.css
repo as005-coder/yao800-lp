@@ -471,7 +471,7 @@ br.sp { display: none; }
   .problem__solve .problem__text { font-size: calc(18 * var(--s)); line-height: calc(40 * var(--s)); }
 
   /* why */
-  .why { padding: calc(50 * var(--s)) 0 0; }
+  .why { padding: calc(50 * var(--s)) 0 calc(56 * var(--s)); }
   .why__title { font-size: calc(20 * var(--s)); }
   .why__text { margin-top: calc(20 * var(--s)); }
   .why__bottles { display: flex; justify-content: center; gap: calc(26 * var(--s)); margin-top: calc(40 * var(--s)); position: relative; }
