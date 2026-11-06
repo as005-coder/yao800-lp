@@ -571,7 +571,7 @@ br.sp { display: none; }
   .rare__desc-1 { padding-left: calc(86 * var(--s)); margin-bottom: calc(6 * var(--s)); }
   .pro__text, .company__text { font-weight: 500; }
   .product__img, .product--lemon .product__img { top: auto; }
-  .reasons__bottle--lemon { left: auto; right: calc(14 * var(--s)); top: calc(700 * var(--s)); }
+  .reasons__bottle--lemon { left: calc(22 * var(--s)); right: auto; top: auto; bottom: calc(118 * var(--s)); }
   .reasons__bottle--lemon img { width: calc(52 * var(--s)); }
   .cta-btn, .cta-btn--sm { font-size: calc(18 * var(--s)); letter-spacing: .06em; padding-left: calc(30 * var(--s)); }
   /* 文字詰め（SP） */
