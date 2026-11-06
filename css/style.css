@@ -238,7 +238,7 @@ br.sp { display: none; }
 .diff__logo img { width: 100%; }
 .diff__sub { color: var(--green); font-weight: 700; font-size: calc(33 * var(--p)); margin-top: calc(18 * var(--p)); }
 
-.flavor { position: relative; color: #fff; background: var(--green); overflow: hidden; }
+.flavor { position: relative; z-index: 1; color: #fff; background: var(--green); overflow: hidden; }
 .flavor--lemon { background: var(--gold); }
 .flavor__inner { position: relative; width: calc(1200 * var(--p)); height: calc(615 * var(--p)); margin: 0 auto; }
 .flavor__main { position: absolute; left: calc(30 * var(--p)); top: calc(62 * var(--p)); width: calc(520 * var(--p)); }
