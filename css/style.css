@@ -17,6 +17,7 @@
   --gothic: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   /* 1440px基準で縮小する単位（最大1px） */
   --p: min(1px, calc(100vw / 1440));
+  --q: calc(100vw / 1440); /* 上限なし（背景の拡大用） */
   --header-h: calc(92 * var(--p));
 }
 
@@ -95,7 +96,7 @@ br.sp { display: none; }
   height: calc(1668 * var(--p));
   background: #2f3a1c url(../img/fv-bg.jpg) center / cover no-repeat;
 }
-.fv::after { content: ""; position: absolute; z-index: 0; top: 0; bottom: 0; left: calc(50% - 720 * var(--p)); width: calc(1440 * var(--p)); background: url(../img/fv-bg.jpg) calc(-478 * var(--p)) calc(-924 * var(--p)) / calc(1928 * var(--p)) calc(2826 * var(--p)) no-repeat; }
+.fv::after { content: ""; position: absolute; z-index: 0; inset: 0; background: url(../img/fv-bg.jpg) calc(-478 * var(--q)) calc(-924 * var(--q)) / calc(1928 * var(--q)) calc(2826 * var(--q)) no-repeat; }
 .fv::before { content: ""; position: absolute; z-index: 1; inset: 0; background: rgba(0, 0, 0, .39); }
 .fv__inner { z-index: 2; }
 .fv__inner { position: relative; width: calc(1440 * var(--p)); height: 100%; margin: 0 auto; }
@@ -272,7 +273,7 @@ br.sp { display: none; }
    Gift
    ========================================================= */
 .gift { position: relative; color: #fff; text-align: center; padding: calc(69 * var(--p)) 0 calc(90 * var(--p)); min-height: calc(851 * var(--p)); background: #2f3a1c url(../img/fv-bg.jpg) center / cover no-repeat; }
-.gift::after { content: ""; position: absolute; z-index: 0; top: 0; bottom: 0; left: calc(50% - 720 * var(--p)); width: calc(1440 * var(--p)); background: url(../img/fv-bg.jpg) calc(-453 * var(--p)) calc(-1596 * var(--p)) / calc(2152 * var(--p)) calc(3234 * var(--p)) no-repeat; }
+.gift::after { content: ""; position: absolute; z-index: 0; inset: 0; background: url(../img/fv-bg.jpg) calc(-453 * var(--q)) calc(-1596 * var(--q)) / calc(2152 * var(--q)) calc(3234 * var(--q)) no-repeat; }
 .gift::before { content: ""; position: absolute; z-index: 1; inset: 0; background: rgba(0, 0, 0, .5); }
 .gift .inner { z-index: 2; }
 .gift .vtitle { position: relative; gap: calc(24 * var(--p)); }
