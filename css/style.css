@@ -496,7 +496,7 @@ br.sp { display: none; }
   .flavor__name, .flavor--lemon .flavor__name { display: block; }
   .flavor__name h3 { font-size: calc(30 * var(--s)); line-height: 1.2; margin-top: calc(6 * var(--s)); }
   .flavor__name p { font-size: calc(12 * var(--s)); margin-top: 0; }
-  .flavor__text { width: auto; margin: calc(16 * var(--s)) 0 0; font-size: calc(10 * var(--s)); line-height: calc(19 * var(--s)); }
+  .flavor__text { width: auto; margin: calc(16 * var(--s)) 0 0; font-size: 18px; line-height: 1.75; font-feature-settings: "palt"; }
   .flavor--lemon .flavor__text { margin-top: calc(16 * var(--s)); }
   .flavor__side { margin-top: calc(8 * var(--s)); }
   .flavor__label { font-size: calc(10 * var(--s)); line-height: 1.5; text-align: center; padding: 0; }
