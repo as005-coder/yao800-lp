@@ -508,8 +508,8 @@ br.sp { display: none; }
   .flavor__bottle img { width: 100%; }
   .flavor__bottle .circle { display: none; }
   .diff__summary { padding-top: calc(28 * var(--s)); }
-  .diff__summary .deco--lime-l { display: none; }
-  .diff__summary .deco--lemon-r { right: auto; left: calc(-60 * var(--s)); top: calc(30 * var(--s)); width: calc(240 * var(--s)); transform: none; }
+  .diff__summary .deco--lemon-r { display: none; }
+  .diff__summary .deco--lime-l { left: calc(-60 * var(--s)); top: calc(30 * var(--s)); width: calc(240 * var(--s)); }
   .diff .cta { padding-top: calc(36 * var(--s)); }
   .diff { overflow: visible; overflow-x: clip; }
   .diff__head .deco--head { display: block; position: absolute; right: calc(-47 * var(--s)); top: calc(-50 * var(--s)); width: calc(201 * var(--s)); }
