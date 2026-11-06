@@ -240,24 +240,24 @@ br.sp { display: none; }
 
 .flavor { position: relative; color: #fff; background: var(--green); overflow: hidden; }
 .flavor--lemon { background: var(--gold); }
-.flavor__inner { position: relative; width: calc(1200 * var(--p)); height: calc(535 * var(--p)); margin: 0 auto; }
-.flavor__main { position: absolute; left: calc(30 * var(--p)); top: calc(22 * var(--p)); width: calc(520 * var(--p)); }
+.flavor__inner { position: relative; width: calc(1200 * var(--p)); height: calc(615 * var(--p)); margin: 0 auto; }
+.flavor__main { position: absolute; left: calc(30 * var(--p)); top: calc(62 * var(--p)); width: calc(520 * var(--p)); }
 .flavor__name { display: flex; align-items: baseline; gap: calc(110 * var(--p)); }
 .flavor__name h3 { font-weight: 700; font-size: calc(60 * var(--p)); line-height: 1.45; letter-spacing: -.01em; }
 .flavor__name p { font-weight: 700; font-size: max(11px, calc(20 * var(--p))); line-height: 1.45; margin-top: 0; white-space: nowrap; }
 .flavor--lemon .flavor__name { gap: calc(30 * var(--p)); }
 .flavor__text { font-size: max(12px, calc(22 * var(--p))); line-height: calc(38 * var(--p)); width: calc(503 * var(--p)); margin: calc(12 * var(--p)) 0 0 calc(7 * var(--p)); }
 .flavor--lemon .flavor__text { margin-top: calc(10 * var(--p)); }
-.flavor__side { position: absolute; left: calc(600 * var(--p)); top: calc(22 * var(--p)); width: calc(599 * var(--p)); }
+.flavor__side { position: absolute; left: calc(600 * var(--p)); top: calc(62 * var(--p)); width: calc(599 * var(--p)); }
 .flavor__label { font-weight: 500; font-size: max(12px, calc(25 * var(--p))); line-height: calc(10 * var(--p)); padding: calc(6 * var(--p)) 0 0 calc(7 * var(--p)); }
 .flavor__tags { margin-top: calc(18 * var(--p)); background: var(--gold); min-height: calc(56 * var(--p)); display: flex; align-items: center; justify-content: center; text-align: center; font-weight: 500; font-size: max(10px, calc(20 * var(--p))); line-height: calc(26 * var(--p)); letter-spacing: -.03em; padding: calc(5 * var(--p)) calc(10 * var(--p)); }
 .flavor--lemon .flavor__tags { background: var(--green); }
 .flavor__photos { display: flex; flex-direction: column; gap: calc(8 * var(--p)); width: calc(283 * var(--p)); margin-top: calc(19 * var(--p)); }
 .flavor__photos img { width: 100%; aspect-ratio: 283 / 189; object-fit: cover; }
-.flavor__bottle { position: absolute; left: calc(958 * var(--p)); top: calc(154 * var(--p)); width: calc(245 * var(--p)); z-index: 1; }
+.flavor__bottle { position: absolute; left: calc(958 * var(--p)); top: calc(194 * var(--p)); width: calc(245 * var(--p)); z-index: 1; }
 .flavor__bottle img { position: relative; width: calc(245 * var(--p)); filter: drop-shadow(0 6px 10px rgba(0, 0, 0, .18)); }
 .flavor__bottle .circle { position: absolute; left: calc(77 * var(--p)); top: calc(84 * var(--p)); width: calc(247 * var(--p)); aspect-ratio: 1; border-radius: 50%; background: var(--yellow); }
-.flavor--lemon .flavor__bottle { top: calc(184 * var(--p)); }
+.flavor--lemon .flavor__bottle { top: calc(224 * var(--p)); }
 .flavor--lemon .flavor__bottle .circle { top: calc(81 * var(--p)); }
 
 .deco { position: absolute; opacity: .3; pointer-events: none; }
