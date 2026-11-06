@@ -529,8 +529,8 @@ br.sp { display: none; }
   .reasons__head span { min-width: calc(206 * var(--s)); padding: 0 calc(8 * var(--s)); }
   .reasons__text { font-size: 18px; line-height: 1.75; margin-top: calc(14 * var(--s)); font-feature-settings: "palt"; }
   .reasons__text { width: calc(310 * var(--s)); margin-left: auto; margin-right: auto; }
-  .reasons .deco--lemon-r { right: auto; left: calc(-110 * var(--s)); top: calc(40 * var(--s)); width: calc(250 * var(--s)); }
-  .reasons .deco--lime-l { left: auto; right: calc(-80 * var(--s)); top: calc(780 * var(--s)); width: calc(240 * var(--s)); transform: none; }
+  .reasons .deco--lime-l { left: calc(-110 * var(--s)); top: calc(40 * var(--s)); width: calc(250 * var(--s)); }
+  .reasons .deco--lemon-r { right: calc(-80 * var(--s)); top: calc(780 * var(--s)); width: calc(240 * var(--s)); }
   .reasons__bottle .circle { display: none; }
   .reasons__bottle--yuzu { left: auto; right: calc(30 * var(--s)); top: calc(130 * var(--s)); }
   .reasons__bottle--yuzu img { width: calc(58 * var(--s)); }
