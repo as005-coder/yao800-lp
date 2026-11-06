@@ -4,8 +4,8 @@
 
   /* ---------- リンク先設定（確定したらここを書き換える） ---------- */
   var LINKS = {
-    store: '#',      // 公式オンラインストアのURL
-    instagram: '#'   // InstagramのURL
+    store: 'https://store.shopping.yahoo.co.jp/yao800/search.html?aq=&oq=&storeid=yao800&strcid=b0fba4dfca&p=%E3%82%84%E3%81%8A%E4%B9%9D%E5%B7%9E%E3%80%80Miyazaki+Fresh+Pepper&sc_i=shopping-pc-web-category-storeitm-stsch-msschbt', // 公式オンラインストアのURL
+    instagram: 'https://www.instagram.com/miyazaki.pepper/'   // InstagramのURL
   };
   document.querySelectorAll('[data-link]').forEach(function (a) {
     var url = LINKS[a.getAttribute('data-link')];
