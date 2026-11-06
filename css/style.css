@@ -490,7 +490,7 @@ br.sp { display: none; }
   .pro .photo3 img { aspect-ratio: 281 / 188; }
 
   /* diff */
-  .diff__head { padding: calc(10 * var(--s)) 0 calc(16 * var(--s)); position: relative; z-index: 1; }
+  .diff__head { padding: calc(10 * var(--s)) 0 calc(16 * var(--s)); position: relative; }
   .diff__logo { width: calc(270 * var(--s)); }
   .diff__sub { font-size: calc(18 * var(--s)); margin-top: calc(6 * var(--s)); }
   .flavor { width: calc(280 * var(--s)); margin: 0 auto; }
@@ -513,7 +513,9 @@ br.sp { display: none; }
   .diff__summary .deco--lime-l { display: none; }
   .diff__summary .deco--lemon-r { right: auto; left: calc(-60 * var(--s)); top: calc(30 * var(--s)); width: calc(240 * var(--s)); transform: none; }
   .diff .cta { padding-top: calc(36 * var(--s)); }
-  .diff__head .deco { display: none; }
+  .diff { overflow: visible; overflow-x: clip; }
+  .diff__head .deco--head { display: block; position: absolute; right: calc(-47 * var(--s)); top: calc(-50 * var(--s)); width: calc(201 * var(--s)); }
+  .diff__head .diff__logo, .diff__head .diff__sub { position: relative; }
 
   /* gift */
   .gift { min-height: 0; padding: calc(110 * var(--s)) 0 calc(110 * var(--s)); background-position: 52% 50%; }
