@@ -218,9 +218,10 @@ br.sp { display: none; }
 .vtitle { display: flex; flex-direction: row-reverse; justify-content: center; align-items: stretch; gap: calc(40 * var(--p)); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1.2; }
 .vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; text-align: start; }
 .vtitle--lined { color: var(--green); gap: 0; }
-.vtitle--lined span { border-left: 1px solid var(--green); padding: .3em 0 .15em; line-height: 1.35; letter-spacing: .35em; white-space: nowrap; }
-.vtitle--lined span:first-child { border-right: 1px solid var(--green); }
-.vtitle--lined span:last-child { padding-top: .5em; } /* 1文字分下げる */
+.vtitle--lined > span { writing-mode: horizontal-tb; display: flex; justify-content: center; width: 1.6em; border-left: 1px solid var(--green); padding: .3em 0 .15em; }
+.vtitle--lined > span:first-child { border-right: 1px solid var(--green); }
+.vtitle--lined > span:last-child { padding-top: .5em; } /* 2列目の書き出し位置 */
+.vtitle--lined .vtxt { writing-mode: vertical-rl; text-orientation: upright; line-height: 1; letter-spacing: .35em; white-space: nowrap; }
 .vtitle--white { color: #fff; }
 
 /* =========================================================
