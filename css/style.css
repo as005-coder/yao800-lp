@@ -217,10 +217,9 @@ br.sp { display: none; }
    ========================================================= */
 .vtitle { display: flex; flex-direction: row-reverse; justify-content: center; align-items: stretch; gap: calc(40 * var(--p)); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1.2; }
 .vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; }
-.vtitle--lined { color: var(--green); position: relative; padding: calc(14 * var(--p)) calc(28 * var(--p)); gap: calc(40 * var(--p)); }
-.vtitle--lined span { position: relative; }
-.vtitle--lined span::before { content: ""; position: absolute; top: calc(-6 * var(--p)); bottom: calc(-6 * var(--p)); right: calc(-20 * var(--p)); width: 1px; background: var(--green); }
-.vtitle--lined span:last-child::after { content: ""; position: absolute; top: calc(-6 * var(--p)); bottom: calc(-6 * var(--p)); left: calc(-22 * var(--p)); width: 1px; background: var(--green); }
+.vtitle--lined { color: var(--green); gap: 0; }
+.vtitle--lined span { border-left: 1px solid var(--green); padding: .45em .4em 0; letter-spacing: .5em; }
+.vtitle--lined span:first-child { border-right: 1px solid var(--green); }
 .vtitle--white { color: #fff; }
 
 /* =========================================================
@@ -479,9 +478,6 @@ br.sp { display: none; }
 
   /* vertical titles */
   .vtitle { font-size: calc(20 * var(--s)); gap: calc(16 * var(--s)); }
-  .vtitle--lined { padding: calc(8 * var(--s)) calc(14 * var(--s)); gap: calc(18 * var(--s)); }
-  .vtitle--lined span::before { right: calc(-9 * var(--s)); }
-  .vtitle--lined span:last-child::after { left: calc(-9 * var(--s)); }
 
   /* pro */
   .pro { padding-top: calc(40 * var(--s)); }
