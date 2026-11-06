@@ -218,7 +218,7 @@ br.sp { display: none; }
 .vtitle { display: flex; flex-direction: row-reverse; justify-content: center; align-items: stretch; gap: calc(40 * var(--p)); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1.2; }
 .vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; }
 .vtitle--lined { color: var(--green); gap: 0; }
-.vtitle--lined span { border-left: 1px solid var(--green); padding: .45em 0 0; line-height: 1.9; letter-spacing: .5em; white-space: nowrap; }
+.vtitle--lined span { border-left: 1px solid var(--green); padding: 0; line-height: 1.35; letter-spacing: .35em; white-space: nowrap; }
 .vtitle--lined span:first-child { border-right: 1px solid var(--green); }
 .vtitle--white { color: #fff; }
 
