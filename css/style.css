@@ -39,7 +39,7 @@ button { font: inherit; }
 
 .inner { width: min(1200px, calc(100% - 40px)); margin: 0 auto; position: relative; }
 .sp { display: none; }
-.rare__desc-1 { display: block; }
+.rare__desc-1 { display: block; padding-left: calc(71 * var(--p)); white-space: nowrap; }
 br.sp { display: none; }
 
 /* ---------- fade-in ---------- */
@@ -564,7 +564,7 @@ br.sp { display: none; }
   .pc-i { display: none; }
   .fv__vertical { letter-spacing: .45em; }
   .intro .hl { display: table; margin: calc(4 * var(--s)) auto; }
-  .rare__desc-1 { padding-left: calc(90 * var(--s)); margin-bottom: calc(6 * var(--s)); }
+  .rare__desc-1 { padding-left: calc(86 * var(--s)); margin-bottom: calc(6 * var(--s)); }
   .pro__text, .company__text { font-weight: 500; }
   .product__img, .product--lemon .product__img { top: auto; }
   .reasons__bottle--lemon { top: calc(760 * var(--s)); }
