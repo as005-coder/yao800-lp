@@ -467,7 +467,9 @@ br.sp { display: none; }
   .problem__solve { min-height: calc(560 * var(--s)); padding: calc(80 * var(--s)) calc(55 * var(--s)) calc(40 * var(--s)); }
   .problem__solve::before { height: calc(55 * var(--s)); }
   .problem__bg { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
-  .problem__solve .problem__text { font-size: calc(18 * var(--s)); line-height: calc(40 * var(--s)); }
+  .problem__solve .problem__text { font-size: calc(18 * var(--s)); line-height: calc(40 * var(--s)); margin-top: calc(2 * var(--s)); }
+  .problem__solve .label { line-height: calc(30 * var(--s)); }
+  .problem__solve .label::after { bottom: calc(1 * var(--s)); }
 
   /* why */
   .why { padding: calc(50 * var(--s)) 0 calc(56 * var(--s)); }
