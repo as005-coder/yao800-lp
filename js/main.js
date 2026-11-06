@@ -46,7 +46,7 @@
   var targets = document.querySelectorAll(
     '.intro__logo, .intro__text, .photo3, .rare__lead, .rare__body, .shock__title, .shock__body, ' +
     '.field__title, .field__text, .problem__top > *, .problem__solve-inner, .why__title, .why__text, ' +
-    '.vtitle, .pro__text, .cta, .diff__head, .flavor__inner, .diff__summary p, .gift__text, ' +
+    '.vtitle, .vtitle-lined, .pro__text, .cta, .diff__head, .flavor__inner, .diff__summary p, .gift__text, ' +
     '.reasons__title, .reasons__list li, .products__title, .product, .company'
   );
   if ('IntersectionObserver' in window) {

@@ -217,11 +217,12 @@ br.sp { display: none; }
    ========================================================= */
 .vtitle { display: flex; flex-direction: row-reverse; justify-content: center; align-items: stretch; gap: calc(40 * var(--p)); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1.2; }
 .vtitle span { writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .8em; text-align: start; }
-.vtitle--lined { color: var(--green); gap: 0; }
-.vtitle--lined > span { writing-mode: horizontal-tb; display: flex; justify-content: center; width: 1.6em; border-left: 1px solid var(--green); padding: .3em 0 .15em; }
-.vtitle--lined > span:first-child { border-right: 1px solid var(--green); }
-.vtitle--lined > span:last-child { padding-top: .5em; } /* 2列目の書き出し位置 */
-.vtitle--lined .vtxt { writing-mode: vertical-rl; text-orientation: upright; line-height: 1; letter-spacing: .35em; white-space: nowrap; }
+/* 縦書き2列＋罫線3本（一流〜）：gridで両列の高さを必ずそろえる */
+.vtitle-lined { display: grid; grid-template-columns: auto auto; justify-content: center; align-items: stretch; color: var(--green); font-weight: 700; font-size: calc(33 * var(--p)); line-height: 1; }
+.vtitle-lined .vcol { display: block; width: 1.6em; border-left: 1px solid var(--green); padding: .3em 0 .15em; text-align: center; }
+.vtitle-lined .vcol--1 { grid-column: 2; grid-row: 1; border-right: 1px solid var(--green); }
+.vtitle-lined .vcol--2 { grid-column: 1; grid-row: 1; padding-top: .5em; }
+.vtitle-lined .vtxt { display: inline-block; writing-mode: vertical-rl; -webkit-writing-mode: vertical-rl; text-orientation: upright; -webkit-text-orientation: upright; line-height: 1; letter-spacing: .35em; white-space: nowrap; text-align: start; vertical-align: top; }
 .vtitle--white { color: #fff; }
 
 /* =========================================================
@@ -482,6 +483,7 @@ br.sp { display: none; }
 
   /* vertical titles */
   .vtitle { font-size: calc(20 * var(--s)); gap: calc(16 * var(--s)); }
+  .vtitle-lined { font-size: calc(20 * var(--s)); }
 
   /* pro */
   .pro { padding-top: calc(40 * var(--s)); }
