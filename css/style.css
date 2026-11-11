@@ -280,7 +280,7 @@ br.sp { display: none; }
 .gift .inner { z-index: 2; }
 .tax-s { font-size: .65em; }
 .gift .vtitle { position: relative; gap: calc(24 * var(--p)); }
-.gift__text { position: relative; font-weight: 700; font-size: max(15px, calc(25 * var(--p))); line-height: 2.8; margin-top: calc(-10 * var(--p)); }
+.gift__text { position: relative; font-weight: 700; font-size: max(15px, calc(25 * var(--p))); line-height: 2.8; margin-top: calc(60 * var(--p)); }
 
 /* =========================================================
    Reasons
