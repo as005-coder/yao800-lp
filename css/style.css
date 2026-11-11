@@ -507,7 +507,7 @@ br.sp { display: none; }
   .flavor__label { font-size: calc(10 * var(--s)); line-height: 1.5; text-align: center; padding: 0; }
   .flavor__tags { margin-top: calc(4 * var(--s)); font-size: calc(10 * var(--s)); line-height: calc(19 * var(--s)); min-height: calc(37 * var(--s)); }
   .flavor__photos { flex-direction: row; width: auto; gap: calc(8 * var(--s)); margin-top: calc(12 * var(--s)); }
-  .flavor__photos img { width: calc(50% - 4 * var(--s)); border-radius: calc(12 * var(--s)); }
+  .flavor__photos img { width: calc(50% - 4 * var(--s)); border-radius: 0 calc(28 * var(--s)) 0 calc(28 * var(--s)); }
   .flavor__bottle, .flavor--lemon .flavor__bottle { left: auto; right: calc(10 * var(--s)); top: calc(8 * var(--s)); width: calc(58 * var(--s)); }
   .flavor__bottle img { width: 100%; }
   .flavor__bottle .circle { display: none; }
