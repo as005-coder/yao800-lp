@@ -259,9 +259,9 @@ br.sp { display: none; }
 .flavor__photos img { width: 100%; aspect-ratio: 283 / 189; object-fit: cover; }
 .flavor__bottle { position: absolute; left: calc(958 * var(--p)); top: calc(194 * var(--p)); width: calc(245 * var(--p)); z-index: 1; }
 .flavor__bottle img { position: relative; width: calc(245 * var(--p)); filter: drop-shadow(0 6px 10px rgba(0, 0, 0, .18)); }
-.flavor__bottle .circle { position: absolute; left: calc(77 * var(--p)); top: calc(84 * var(--p)); width: calc(247 * var(--p)); aspect-ratio: 1; border-radius: 50%; background: var(--yellow); }
-.flavor--lemon .flavor__bottle { top: calc(224 * var(--p)); }
-.flavor--lemon .flavor__bottle .circle { top: calc(81 * var(--p)); }
+.flavor__bottle .circle { position: absolute; left: calc(95 * var(--p)); top: calc(118 * var(--p)); width: calc(247 * var(--p)); aspect-ratio: 1; border-radius: 50%; background: var(--yellow); }
+.flavor--lemon .flavor__bottle { top: calc(178 * var(--p)); }
+.flavor--lemon .flavor__bottle .circle { top: calc(110 * var(--p)); }
 
 .deco { position: absolute; opacity: .3; pointer-events: none; }
 .deco--lime-l { transform: scaleX(-1); }
