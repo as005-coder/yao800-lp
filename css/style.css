@@ -520,7 +520,7 @@ br.sp { display: none; }
   .diff__head .diff__logo, .diff__head .diff__sub { position: relative; }
 
   /* gift */
-  .gift { min-height: 0; padding: calc(110 * var(--s)) 0 calc(110 * var(--s)); background-position: 52% 50%; }
+  .gift { min-height: 0; padding: calc(110 * var(--s)) 0 calc(110 * var(--s)); background-size: calc(1400 * var(--s)) auto; background-position: calc(-520 * var(--s)) calc(-1000 * var(--s)); }
   .gift__text { margin-top: calc(50 * var(--s)); }
 
   /* reasons */
