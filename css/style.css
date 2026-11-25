@@ -358,10 +358,26 @@ br.sp { display: none; }
 .rare__lead-l { line-height: 1.8; }
 .rare__q { line-height: 1.8; }
 .reasons__text { line-height: 2; }
-.flavor__text { letter-spacing: 0; }
+.flavor__text { letter-spacing: 0; margin-left: 0; }
 .reasons__head { display: grid; justify-items: stretch; width: max-content; margin-left: auto; margin-right: auto; }
 .reasons__head span { text-align: center; letter-spacing: .02em; }
 .company__seller { letter-spacing: .12em; font-weight: 500; }
+
+/* セクション余白・揃えの統一（2026-11 調整） */
+.intro { padding-top: calc(120 * var(--p)); padding-bottom: calc(120 * var(--p)); }
+.rare { padding-top: calc(107 * var(--p)); padding-bottom: calc(105 * var(--p)); }
+.rare__text { padding-left: 0; }
+.shock { padding-top: calc(128 * var(--p)); padding-bottom: calc(120 * var(--p)); }
+.field { min-height: 0; padding-top: calc(110 * var(--p)); padding-bottom: calc(106 * var(--p)); }
+.problem__top { padding-top: calc(83 * var(--p)); padding-bottom: calc(86 * var(--p)); }
+.reasons { padding-top: calc(114 * var(--p)); }
+.why { padding-top: calc(121 * var(--p)); padding-bottom: calc(106 * var(--p)); }
+.pro { padding-top: calc(97 * var(--p)); }
+.gift { min-height: 0; padding-top: calc(120 * var(--p)); padding-bottom: calc(106 * var(--p)); }
+.company { padding-top: calc(87 * var(--p)); padding-bottom: calc(98 * var(--p)); }
+.product--lemon .product__spec { padding-left: calc(32 * var(--p)); }
+.product__price .tax { left: calc(316 * var(--p)); top: calc(22 * var(--p)); }
+.product__note { display: none; }
 
 /* =========================================================
    SP（390px デザイン基準）
@@ -611,4 +627,16 @@ br.sp { display: none; }
   .flavor__label { font-size: 12px; }
   .flavor__tags { font-size: 12px; line-height: 1.6; letter-spacing: 0; padding: calc(6 * var(--s)) calc(8 * var(--s)); }
   .company__seller { letter-spacing: .1em; }
+  /* --- セクション余白の統一（SP） --- */
+  .intro { padding-top: calc(64 * var(--s)); padding-bottom: calc(64 * var(--s)); }
+  .rare { padding-top: calc(58 * var(--s)); padding-bottom: calc(50 * var(--s)); }
+  .shock { padding-top: calc(65 * var(--s)); padding-bottom: calc(64 * var(--s)); }
+  .field { padding-top: calc(44 * var(--s)); padding-bottom: calc(58 * var(--s)); }
+  .problem__top { padding-top: calc(30 * var(--s)); padding-bottom: calc(35 * var(--s)); }
+  .why { padding-top: calc(64 * var(--s)); padding-bottom: calc(64 * var(--s)); }
+  .pro { padding-top: calc(50 * var(--s)); }
+  .reasons { padding-top: calc(61 * var(--s)); }
+  .gift { padding-top: calc(80 * var(--s)); padding-bottom: calc(74 * var(--s)); }
+  .company { padding-top: calc(40 * var(--s)); padding-bottom: calc(63 * var(--s)); }
+  .product__price .tax { left: auto; top: auto; }
 }
