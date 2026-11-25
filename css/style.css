@@ -348,6 +348,22 @@ br.sp { display: none; }
 .footer__copy small { font-size: inherit; }
 
 /* =========================================================
+   文字組みの統一（2026-11 調整）
+   ========================================================= */
+.intro__text, .rare__lead, .rare__q, .rare__desc, .shock__text, .field__text, .problem__text, .why__text, .pro__text,
+.diff__summary p, .gift__text, .reasons__text, .company__text, .flavor__text {
+  font-feature-settings: "palt"; letter-spacing: .06em; font-weight: 500;
+}
+.intro__text, .field__text, .problem__text, .why__text, .pro__text, .diff__summary p, .gift__text, .company__text, .shock__text, .rare__lead { line-height: 2.5; }
+.rare__lead-l { line-height: 1.8; }
+.rare__q { line-height: 1.8; }
+.reasons__text { line-height: 2; }
+.flavor__text { letter-spacing: 0; }
+.reasons__head { display: grid; justify-items: stretch; width: max-content; margin-left: auto; margin-right: auto; }
+.reasons__head span { text-align: center; letter-spacing: .02em; }
+.company__seller { letter-spacing: .12em; font-weight: 500; }
+
+/* =========================================================
    SP（390px デザイン基準）
    ========================================================= */
 @media (max-width: 767px) {
@@ -583,4 +599,16 @@ br.sp { display: none; }
   .why__text, .pro__text, .field__text, .gift__text, .problem__solve .problem__text { margin-left: calc(-10 * var(--s)); margin-right: calc(-10 * var(--s)); }
   .intro__text, .company__text { width: calc(300 * var(--s)); }
   .product, .product--lemon { padding-left: calc(16 * var(--s)); padding-right: calc(16 * var(--s)); }
+
+  /* --- 文字組みの統一（SP） --- */
+  .intro__text, .rare__lead, .rare__desc, .shock__text, .field__text, .why__text, .pro__text, .diff__summary p, .gift__text, .company__text, .problem__solve .problem__text { line-height: calc(38 * var(--s)); letter-spacing: .04em; }
+  .rare__lead-l { line-height: calc(38 * var(--s)); }
+  .rare__q { line-height: calc(30 * var(--s)); }
+  .problem__top .problem__text { font-size: calc(15 * var(--s)); line-height: calc(30 * var(--s)); letter-spacing: .04em; }
+  .reasons__text { line-height: 2; letter-spacing: .04em; }
+  .flavor__text { letter-spacing: .02em; text-align: left; }
+  .rare__lead, .rare__lead-l { letter-spacing: .01em; }
+  .flavor__label { font-size: 12px; }
+  .flavor__tags { font-size: 12px; line-height: 1.6; letter-spacing: 0; padding: calc(6 * var(--s)) calc(8 * var(--s)); }
+  .company__seller { letter-spacing: .1em; }
 }
