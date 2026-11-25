@@ -378,6 +378,7 @@ br.sp { display: none; }
 .product--lemon .product__spec { padding-left: calc(32 * var(--p)); }
 .product__price .tax { left: calc(316 * var(--p)); top: calc(22 * var(--p)); }
 .product__note { display: none; }
+.problem__solve { min-height: 0; padding-top: calc(138 * var(--p)); padding-bottom: calc(86 * var(--p)); }
 
 /* =========================================================
    SP（390px デザイン基準）
@@ -633,6 +634,7 @@ br.sp { display: none; }
   .shock { padding-top: calc(65 * var(--s)); padding-bottom: calc(64 * var(--s)); }
   .field { padding-top: calc(44 * var(--s)); padding-bottom: calc(58 * var(--s)); }
   .problem__top { padding-top: calc(30 * var(--s)); padding-bottom: calc(35 * var(--s)); }
+  .problem__solve { min-height: 0; padding-bottom: calc(58 * var(--s)); }
   .why { padding-top: calc(64 * var(--s)); padding-bottom: calc(64 * var(--s)); }
   .pro { padding-top: calc(50 * var(--s)); }
   .reasons { padding-top: calc(61 * var(--s)); }
