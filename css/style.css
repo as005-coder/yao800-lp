@@ -628,6 +628,7 @@ br.sp { display: none; }
   .flavor__label { font-size: 12px; }
   .flavor__tags { font-size: 12px; line-height: 1.6; letter-spacing: 0; padding: calc(6 * var(--s)) calc(8 * var(--s)); }
   .company__seller { letter-spacing: .1em; }
+  .shock__text { letter-spacing: 0; }
   /* --- セクション余白の統一（SP） --- */
   .intro { padding-top: calc(64 * var(--s)); padding-bottom: calc(64 * var(--s)); }
   .rare { padding-top: calc(58 * var(--s)); padding-bottom: calc(50 * var(--s)); }
