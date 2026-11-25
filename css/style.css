@@ -359,6 +359,10 @@ br.sp { display: none; }
 .rare__q { line-height: 1.8; }
 .reasons__text { line-height: 2; }
 .flavor__text { letter-spacing: 0; margin-left: 0; }
+/* 帯の本文も他の本文と同じ25pxに統一。帯は本文量に合わせて伸ばす */
+.flavor__inner { height: auto; min-height: calc(615 * var(--p)); padding: calc(62 * var(--p)) 0 calc(62 * var(--p)); }
+.flavor__main { position: relative; left: calc(30 * var(--p)); top: 0; width: calc(530 * var(--p)); }
+.flavor__text, .flavor--lemon .flavor__text { width: auto; font-size: max(15px, calc(25 * var(--p))); line-height: 1.8; margin-top: calc(16 * var(--p)); letter-spacing: .02em; }
 .reasons__head { display: grid; justify-items: stretch; width: max-content; margin-left: auto; margin-right: auto; }
 .reasons__head span { text-align: center; letter-spacing: .02em; }
 .company__seller { letter-spacing: .12em; font-weight: 500; }
@@ -629,6 +633,8 @@ br.sp { display: none; }
   .flavor__tags { font-size: 12px; line-height: 1.6; letter-spacing: 0; padding: calc(6 * var(--s)) calc(8 * var(--s)); }
   .company__seller { letter-spacing: .1em; }
   .shock__text { letter-spacing: 0; }
+  .flavor__inner { min-height: 0; }
+  .flavor__text, .flavor--lemon .flavor__text { font-size: 18px; line-height: 1.75; margin-top: calc(16 * var(--s)); letter-spacing: .02em; }
   /* --- セクション余白の統一（SP） --- */
   .intro { padding-top: calc(64 * var(--s)); padding-bottom: calc(64 * var(--s)); }
   .rare { padding-top: calc(58 * var(--s)); padding-bottom: calc(50 * var(--s)); }
